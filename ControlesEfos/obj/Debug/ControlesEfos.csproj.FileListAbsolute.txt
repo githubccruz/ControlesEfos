@@ -1,0 +1,7 @@
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\ControlesEfos.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\UserControl1.baml
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\UserControl1.g.cs
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\ControlesEfos_MarkupCompile.cache
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\ControlesEfos.g.resources
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\ControlesEfos.Properties.Resources.resources
+c:\users\carlos\documents\visual studio 2012\Projects\ControlesEfos\ControlesEfos\obj\Debug\ControlesEfos.csproj.GenerateResource.Cache

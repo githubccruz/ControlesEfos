@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9405D112-374E-4B37-A33B-ABBD6876F385}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlesEfos</RootNamespace>
+    <AssemblyName>ControlesEfos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="efosButtonProcesar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonProcesar.Designer.cs">
+      <DependentUpon>efosButtonProcesar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonConsultar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonConsultar.Designer.cs">
+      <DependentUpon>efosButtonConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonSeleccionar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonSeleccionar.Designer.cs">
+      <DependentUpon>efosButtonSeleccionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButton.Designer.cs">
+      <DependentUpon>efosButton.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="efosButtonAdelante.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonAdelante.Designer.cs">
+      <DependentUpon>efosButtonAdelante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonAdelanteFinal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonAdelanteFinal.Designer.cs">
+      <DependentUpon>efosButtonAdelanteFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonAtras.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonAtras.Designer.cs">
+      <DependentUpon>efosButtonAtras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonAtrasFinal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonAtrasFinal.Designer.cs">
+      <DependentUpon>efosButtonAtrasFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonBuscador.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonBuscador.Designer.cs">
+      <DependentUpon>efosButtonBuscador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonBuscar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonBuscar.Designer.cs">
+      <DependentUpon>efosButtonBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonCancelar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonCancelar.Designer.cs">
+      <DependentUpon>efosButtonCancelar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonEditar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonEditar.Designer.cs">
+      <DependentUpon>efosButtonEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonEstado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonEstado.Designer.cs">
+      <DependentUpon>efosButtonEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonGuardar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonGuardar.Designer.cs">
+      <DependentUpon>efosButtonGuardar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonNuevo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonNuevo.Designer.cs">
+      <DependentUpon>efosButtonNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosButtonSalir.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosButtonSalir.Designer.cs">
+      <DependentUpon>efosButtonSalir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosCalendar.Designer.cs">
+      <DependentUpon>efosCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosCampo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosCampo.Designer.cs">
+      <DependentUpon>efosCampo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosCampoCodigo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosCampoCodigo.Designer.cs">
+      <DependentUpon>efosCampoCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosCheck.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosCheck.Designer.cs">
+      <DependentUpon>efosCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosCombo.Designer.cs">
+      <DependentUpon>efosCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosDataGridView.Designer.cs">
+      <DependentUpon>efosDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosImage.Designer.cs">
+      <DependentUpon>efosImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosLetrero.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosLetrero.Designer.cs">
+      <DependentUpon>efosLetrero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosLetreroCodigo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosLetreroCodigo.Designer.cs">
+      <DependentUpon>efosLetreroCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosLetreroDescripcion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosLetreroDescripcion.Designer.cs">
+      <DependentUpon>efosLetreroDescripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosLetreroEstado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosLetreroEstado.Designer.cs">
+      <DependentUpon>efosLetreroEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosLetreroFecha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosLetreroFecha.Designer.cs">
+      <DependentUpon>efosLetreroFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosList.Designer.cs">
+      <DependentUpon>efosList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosPanel.Designer.cs">
+      <DependentUpon>efosPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosRadioButton.Designer.cs">
+      <DependentUpon>efosRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosGroupBox.Designer.cs">
+      <DependentUpon>efosGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="efosTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="efosTabControl.Designer.cs">
+      <DependentUpon>efosTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="efosButton.resx">
+      <DependentUpon>efosButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonBuscador.resx">
+      <DependentUpon>efosButtonBuscador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonBuscar.resx">
+      <DependentUpon>efosButtonBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonCancelar.resx">
+      <DependentUpon>efosButtonCancelar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonEstado.resx">
+      <DependentUpon>efosButtonEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonNuevo.resx">
+      <DependentUpon>efosButtonNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonProcesar.resx">
+      <DependentUpon>efosButtonProcesar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonSalir.resx">
+      <DependentUpon>efosButtonSalir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosButtonSeleccionar.resx">
+      <DependentUpon>efosButtonSeleccionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosCampo.resx">
+      <DependentUpon>efosCampo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosCampoCodigo.resx">
+      <DependentUpon>efosCampoCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosCheck.resx">
+      <DependentUpon>efosCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosCombo.resx">
+      <DependentUpon>efosCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosDataGridView.resx">
+      <DependentUpon>efosDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosGroupBox.resx">
+      <DependentUpon>efosGroupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosImage.resx">
+      <DependentUpon>efosImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosLetrero.resx">
+      <DependentUpon>efosLetrero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosLetreroCodigo.resx">
+      <DependentUpon>efosLetreroCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosLetreroDescripcion.resx">
+      <DependentUpon>efosLetreroDescripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosLetreroEstado.resx">
+      <DependentUpon>efosLetreroEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosLetreroFecha.resx">
+      <DependentUpon>efosLetreroFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosList.resx">
+      <DependentUpon>efosList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosPanel.resx">
+      <DependentUpon>efosPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="efosTabControl.resx">
+      <DependentUpon>efosTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Images\personPhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Images\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circular-alt-2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

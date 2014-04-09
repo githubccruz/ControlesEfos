@@ -17,5 +17,6 @@ namespace ControlesEfos
             InitializeComponent();
         }
         public string CampoBD { set; get; }
+        public bool NoLimpiar { get; set; }
     }
 }
